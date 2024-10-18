@@ -1,0 +1,22 @@
+body {
+  font-family: cursive;
+}
+header img {
+  padding: 5px;
+  border-radius: 50%;
+}
+header article {
+  float: right;
+  width: 60%;
+}
+header::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+footer {
+  text-align: center;
+}
+article header small {
+  float: right;
+}

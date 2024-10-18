@@ -3,10 +3,37 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css" >
+    <link rel="stylesheet" href="/assets/css/main.css">
   </head>
   <body>
-    {{ content }}
+    <header>
+      <hgroup>
+        <h1>Etnorozrabiaka</h2>
+        <p>Człowiek który muzyki psuć się nie boi</p>
+      </hgroup>
+      <img src="/assets/img/avatar.jpg" />
+      <article>
+        <p>
+        Czasem coś spod palców wypłynie.
+        </p>
+        <p>
+        Czasem przypląta się zgubione.
+        </p>
+        <p>
+        Przygarniam tych wędrowców.
+        </p>
+        <p>
+        Mieszkają ze mną dźwięki niespełnione.
+        </p>
+      </article>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      2024
+    </footer>
   </body>
 </html>

@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<h2>Do posłuchania</h2>
+<p>
+  Proste zabawy słowem i dźwiękiem, powstałę z wewnętrznej potrzeby ducha,
+  mające na celu zadowolenie twórcy, niekoniecznie słuchacza.
+</p>
+<p>
+  Wiele z nich powstało dzięki uprzejmości znajomych i przyjaciół, którzy zgodzili się użyczyć swojego tekstu, głosu bądź instrumentu, za co jestem im niezmiernie wdzięczny.
+</p>
+{% for post in site.posts %}
+  <article>
+    <header>
+      {% assign date = post.id | split: "/" %}
+      {{ post.title }}
+      <small>{{ date[1] }}/{{ date[2] }}</small>
+    </header>
+    {{ post.content }}
+    <footer>
+      {% if post.audio %}
+      <audio controls>
+        <source src="assets/audio/{{ post.audio }}.mp3" type="audio/mpeg" />
+        <source src="assets/audio/{{ post.audio }}.ogg" type="audio/ogg" />
+      </audio>
+      {% endif %}
+    <p>
+    {% if post.tribute %}
+    <details>
+      <summary>Honory</summary>
+      <p>
+        {{ post.tribute }}
+      </p>
+    </details>
+    {% endif %}
+    {% assign lyrics = site.lyrics | where: "title", post.title | first %}
+    {% if lyrics %}
+    <details>
+      <summary>Tekst</summary>
+      <p>
+        {{ lyrics.content }}
+      </p>
+    </details>
+    {% endif %}
+    </p>
+    </footer>
+  </article>
+{% endfor %}
+
+<h2>O mnie</h2>
+<p>
+Gram ja sobie <a href="https://iglika.eu/">tu</a>, <a href="https://czarnymotyl.art/">tam</a>, <a href="https://balkanartz.eu/">ówdzie</a> -
+towarzystwo miewam różne. <br />
+Czasem coś <a href="https://github.com/mradmacher">zaprogramuję</a>, a poza tym leniuchuję.
+</p>
