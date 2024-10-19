@@ -1,22 +1,36 @@
 body {
   font-family: cursive;
+  text-align: center;
 }
-header img {
+
+td {
+  text-align: center;
+}
+
+main header img {
   padding: 5px;
   border-radius: 50%;
 }
-header article {
+main header article {
   float: right;
   width: 60%;
 }
-header::after {
+main header::after {
   content: "";
   clear: both;
   display: table;
 }
-footer {
-  text-align: center;
-}
+
 article header small {
   float: right;
+}
+
+article header hgroup {
+  text-align: center;
+}
+header hgroup {
+  text-align: left;
+}
+header hgroup a {
+  text-decoration: none;
 }
