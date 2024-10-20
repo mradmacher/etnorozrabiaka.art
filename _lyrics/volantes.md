@@ -5,12 +5,12 @@ title: Volantes
 Querría tener para ti
 un vestido de encaje
 que me transforme
-en una auténtica salvaje.
+en una auténtica salvaje
 
 Querría tener para ti
 labios de fresa, qué sabor!
 para que te susurren
-(mi amor, mi amor, mi amor, mi amor)...
+mi amor, mi amor, mi amor...
 
 Querría tener para ti
 unos carmíneos volantes
@@ -20,7 +20,7 @@ de la ferviente casa de una amante
 Querría tener para ti
 labios de fresa, qué sabor!
 para que te susurren
-(mi amor, mi amor, mi amor...
+mi amor, mi amor, mi amor...
 
 
 Pero soy solo una chica un poco tímida
@@ -33,9 +33,6 @@ pero amable
 cuando estoy triste me tomo una copita
 y luego escribo
 una canción
-(escribo una canción
-una canción
-escribo)
 
 
 Querría para ti
@@ -46,7 +43,7 @@ con reproducciones de millón
 Querría tener para ti
 labios de fresa, qué sabor!
 para que te susurren
-mi amor, (mi amor)...
+mi amor, mi amor...
 
 Querría tener para ti
 unos carmíneos volantes
@@ -69,22 +66,14 @@ pero amable
 que con mucha, mucha pasión
 quema tu desayuno saludable
 
-Mi amor, este desayuno no fue tan horrible
-
 Yo solo soy una chica timidita
 pero amable
 cuando estoy triste me tomo una copita
 y luego escribo
 una canción
-(escribo una canción
-una canción
-escribo)
 
 
 Me gustaría estar para ti
 Me gustaría soñar para ti
 Querriá estar para ti
 Querría vivir para ti
-
-> autor: Viola
-> tłumaczenie Rocío i Miguel

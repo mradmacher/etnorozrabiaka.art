@@ -1,5 +1,5 @@
 body {
-  font-family: cursive monospace sans-serif;
+  font-family: monospace;
   text-align: center;
 }
 
@@ -13,7 +13,8 @@ main header img {
 }
 main header article {
   float: right;
-  width: 60%;
+  width: 50%;
+  border-radius: 20%;
 }
 main header::after {
   content: "";
@@ -29,6 +30,9 @@ article header hgroup {
   text-align: center;
 }
 header hgroup {
+  text-align: left;
+}
+li {
   text-align: left;
 }
 header hgroup a {

@@ -4,4 +4,4 @@ _site
 .jekyll-metadata
 vendor
 *.swp
-assets/audio
+assets/audio/*.flac
