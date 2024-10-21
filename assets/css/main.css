@@ -14,7 +14,7 @@ main header img {
 main header article {
   float: right;
   width: 50%;
-  border-radius: 20%;
+  border-radius: 40%;
 }
 main header::after {
   content: "";
