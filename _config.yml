@@ -2,7 +2,7 @@ url: "https://etnorozrabiaka.art" # the base hostname & protocol for your site, 
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Etnorozrabiaka" # the name of your site, e.g. ACME Corp.
 
-permalink: /:categories/:year/:month/:day/:title
+permalink: pretty
 
 kramdown:
   input: GFM
