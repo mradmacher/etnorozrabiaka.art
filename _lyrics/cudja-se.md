@@ -20,3 +20,6 @@ title: "Чудя се"
 Какво ли би се случило
 Ден и нощ не правим нищо
 а се обичаме безспир.
+
+> Tekst: Viola Radmacher
+> Tłumaczenie na bułgarski: Niki i ja

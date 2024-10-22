@@ -26,6 +26,10 @@ article header small {
   float: right;
 }
 
+article blockquote {
+  text-align: right;
+}
+
 article header hgroup {
   text-align: center;
 }

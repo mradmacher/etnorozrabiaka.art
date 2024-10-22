@@ -1,5 +1,5 @@
 ---
 title: Skrzydła motyla
 ---
-Tekst i recytacja: Viola Radmacher
-Ukulele, piano: Etnorozrabiaka
+Recytacja: Viola Radmacher
+Ukulele, piano: ja

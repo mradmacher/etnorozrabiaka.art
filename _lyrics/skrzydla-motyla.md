@@ -21,3 +21,5 @@ Jak skrzydło motyla
 Zadrżę i zgasnę
 Zadrżę i zgasnę
 Zadrżę i zgasnę
+
+> Tekst: Viola Radmacher

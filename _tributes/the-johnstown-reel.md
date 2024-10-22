@@ -2,4 +2,4 @@
 title: The Johnstown Reel
 ---
 The tune composed by Rebecca Knorr.
-Klarnet, piano, ukulele, sylphyo, automat perkusyjny: Etnorozrabiaka
+Klarnet, piano, ukulele, sylphyo, automat perkusyjny: ja

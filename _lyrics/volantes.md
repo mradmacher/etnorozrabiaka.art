@@ -77,3 +77,6 @@ Me gustaría estar para ti
 Me gustaría soñar para ti
 Querriá estar para ti
 Querría vivir para ti
+
+> Tekst: Viola
+> Tłumaczenie: Rocío Golondrina i ja

@@ -1,5 +1,5 @@
 ---
 title: Самодива
 ---
-Słowa i recytacja: Илонка Иванова
-Klarnet, bębenek obręczowy: Etnorozrabiaka
+Recytacja: Илонка Иванова
+Klarnet, bębenek obręczowy: ja

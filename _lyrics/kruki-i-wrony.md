@@ -29,3 +29,6 @@ A on: czeka, czeka, czeka.
 Ось примовкне у ночі,
 До людини не іде,
 А вона все жде та жде...
+
+> Tekst: Viola Radmacher
+> Tłumaczenie na ukraiński: Olena Bondarenko
