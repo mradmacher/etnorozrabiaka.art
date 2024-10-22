@@ -11,3 +11,6 @@ kramdown:
 collections:
   - lyrics
   - tributes
+
+exclude:
+  - LICENSE
