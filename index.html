@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<header>
+  <img src="/assets/img/avatar.jpg" />
+  <article>
+    <p>
+    Czasem coś spod palców wypłynie.
+    </p>
+    <p>
+    Czasem przypląta się zgubione.
+    </p>
+    <p>
+    Przygarniam tych wędrowców.
+    </p>
+    <p>
+    Mieszkają ze mną dźwięki niespełnione.
+    </p>
+  </article>
+</header>
+
+<h2>Do posłuchania</h2>
+<p>
+  Proste zabawy słowem i dźwiękiem, powstałe z wewnętrznej potrzeby ducha
+  i mające na celu przede wszystkim zadowolenie twórcy, niekoniecznie słuchacza.
+</p>
+<p>
+  Wiele z nich powstało dzięki uprzejmości znajomych i przyjaciół, którzy zgodzili się użyczyć swojego tekstu, głosu bądź instrumentu, za co jestem im niezmiernie wdzięczny.
+</p>
+
+<table>
+  <tbody>
+    {% for post in site.posts %}
+    <tr>
+      <td>
+        <p>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </p>
+
+        <p>
+          {% if post.audio %}
+          <audio controls>
+            <source src="assets/audio/{{ post.audio }}.mp3" type="audio/mpeg" />
+            <source src="assets/audio/{{ post.audio }}.ogg" type="audio/ogg" />
+          </audio>
+          {% endif %}
+        </p>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>O mnie</h2>
+<p>
+Gram ja sobie <a href="https://iglika.eu/">tu</a>, <a href="https://czarnymotyl.art/">tam</a>, <a href="https://balkanartz.eu/">ówdzie</a> -
+towarzystwo miewam różne. <br />
+Czasem coś <a href="https://github.com/mradmacher">zaprogramuję</a>, a poza tym leniuchuję. <br />
+Jeśli do mnie chcesz napisać,
+mejl mój <a href="mailto:etnorozrabiaka@pm.me" data-tooltip="etnorozrabiaka@pm.me">tutaj</a> będzie wisiał. <br />
+Ładnych słów mi nie żałować, tylko proszę nie spamować.
+</p>

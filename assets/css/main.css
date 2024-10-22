@@ -1,0 +1,44 @@
+body {
+  font-family: monospace;
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+main header img {
+  padding: 5px;
+  border-radius: 50%;
+}
+main header article {
+  float: right;
+  width: 50%;
+  border-radius: 40%;
+}
+main header::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+article header small {
+  float: right;
+}
+
+article blockquote {
+  text-align: right;
+}
+
+article header hgroup {
+  text-align: center;
+}
+header hgroup {
+  text-align: left;
+}
+li {
+  text-align: left;
+}
+header hgroup a {
+  text-decoration: none;
+}

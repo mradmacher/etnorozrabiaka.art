@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<article>
+  <header>
+    <hgroup>
+      <h2>{{ page.title }}</h2>
+      {% assign date = page.id | split: "/" %}
+      {{ date[1] }}/{{ date[2] }}/{{ date[3] }}
+    </hgroup>
+  </header>
+  {% if page.audio %}
+  <audio controls>
+    <source src="/assets/audio/{{ page.audio }}.mp3" type="audio/mpeg" />
+    <source src="/assets/audio/{{ page.audio }}.ogg" type="audio/ogg" />
+  </audio>
+  {% endif %}
+  <footer>
+  {{ content }}
+  </footer>
+</article>
+
+
+{% assign lyrics = site.lyrics | where: "title", page.title | first %}
+{% if lyrics %}
+<article>
+  <header>Tekst</header>
+  <p>
+  {{ lyrics.content | markdownify }}
+  </p>
+</article>
+{% endif %}
+
+{% assign tribute = site.tributes | where: "title", page.title | first %}
+{% if tribute %}
+<article>
+  <header>
+    Obsada
+  </header>
+  {{ tribute | markdownify }}
+</article>
+{% endif %}
+
